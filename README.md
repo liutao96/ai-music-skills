@@ -24,17 +24,19 @@ C:\Users\刘涛\.codex\skills
 
 - `同步Skill.cmd`：打开菜单，检查、备份、安装、提交、推送、首次设置都在里面。
 - `一键备份到项目并提交.cmd`：把 `.codex\skills` 当前运行版本同步到项目，并自动 Git commit。
+- `一键备份并推送GitHub.cmd`：把 `.codex\skills` 当前运行版本同步到项目、提交，并推送 GitHub。
 - `一键安装到Codex.cmd`：到另一台电脑后，把项目里的 skill 安装回 `.codex\skills`。
+- `一键从GitHub更新并安装到Codex.cmd`：到另一台电脑后，先从 GitHub 拉取，再安装回 `.codex\skills`。
 - `首次设置GitHub仓库.cmd`：安装 / 登录 GitHub CLI，并创建或推送 `liutao96/miaoxiang-skills` 仓库。
 - `打开GitHub建仓库页面.cmd`：不用 GitHub CLI，直接打开网页创建 `miaoxiang-skills` 仓库。
 - `一键推送到GitHub.cmd`：远端仓库创建好后，直接推送。
 
 建议日常只记两个按钮：
 
-1. 在常用电脑改完 skill 后，双击 `一键备份到项目并提交.cmd`。
-2. 到另一台电脑后，双击 `一键安装到Codex.cmd`。
+1. 在常用电脑改完 skill 后，双击 `一键备份并推送GitHub.cmd`。
+2. 到另一台电脑后，双击 `一键从GitHub更新并安装到Codex.cmd`。
 
-GitHub 只需要首次设置一次，之后用菜单或 `一键推送到GitHub.cmd`。
+GitHub 只需要首次设置一次，之后优先用这两个一键脚本。
 
 如果 `首次设置GitHub仓库.cmd` 因为 GitHub CLI 没装好失败，就双击 `打开GitHub建仓库页面.cmd`，在网页上创建仓库，然后双击 `一键推送到GitHub.cmd`。
 
