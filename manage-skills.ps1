@@ -2,7 +2,7 @@ param(
   [ValidateSet('menu', 'status', 'pull-from-codex', 'install-to-codex', 'commit', 'push', 'pull-github', 'setup-github', 'install-gh')]
   [string]$Mode = 'menu',
 
-  [string]$RepoFullName = 'liutao96/miaoxiang-skills',
+  [string]$RepoFullName = 'liutao96/ai-music-skills',
 
   [string]$Branch = 'master'
 )

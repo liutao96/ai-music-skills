@@ -77,23 +77,23 @@ pwsh -NoProfile -ExecutionPolicy Bypass -File .\skills\sync-skills.ps1 -Mode ins
 推荐使用一个集中仓库保存这些 Skill，例如：
 
 ```text
-https://github.com/liutao96/miaoxiang-skills
+https://github.com/liutao96/ai-music-skills
 ```
 
 如果 GitHub 仓库已经创建好，在本目录运行：
 
 ```powershell
-git remote set-url origin https://github.com/liutao96/miaoxiang-skills.git
+git remote set-url origin https://github.com/liutao96/ai-music-skills.git
 git push -u origin master
 ```
 
 如果安装了 GitHub CLI，可以一次完成创建和推送：
 
 ```powershell
-gh repo create liutao96/miaoxiang-skills --private --source . --remote origin --push
+gh repo create liutao96/ai-music-skills --private --source . --remote origin --push
 ```
 
-如果不用 GitHub CLI，就先在 GitHub 网页创建 `miaoxiang-skills` 仓库，再运行上面的 `git push`。
+如果不用 GitHub CLI，就先在 GitHub 网页创建 `ai-music-skills` 仓库，再运行上面的 `git push`。
 
 当前目录已经是 Git 仓库；如果移动到另一台电脑，只要 GitHub 远端存在，就可以 `git pull` / `git push`。
 
