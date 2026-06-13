@@ -50,3 +50,27 @@ pwsh -NoProfile -ExecutionPolicy Bypass -File .\skills\sync-skills.ps1 -Mode ins
 4. 到另一台电脑后拉取 GitHub 或拷贝移动硬盘。
 5. 运行 `install-to-codex` 安装到那台电脑的 Codex。
 
+## GitHub 远端设置
+
+推荐使用一个集中仓库保存这些 Skill，例如：
+
+```text
+https://github.com/liutao96/miaoxiang-skills
+```
+
+如果 GitHub 仓库已经创建好，在本目录运行：
+
+```powershell
+git remote set-url origin https://github.com/liutao96/miaoxiang-skills.git
+git push -u origin master
+```
+
+如果安装了 GitHub CLI，可以一次完成创建和推送：
+
+```powershell
+gh repo create liutao96/miaoxiang-skills --private --source . --remote origin --push
+```
+
+如果不用 GitHub CLI，就先在 GitHub 网页创建 `miaoxiang-skills` 仓库，再运行上面的 `git push`。
+
+当前目录已经是 Git 仓库；如果移动到另一台电脑，只要 GitHub 远端存在，就可以 `git pull` / `git push`。
