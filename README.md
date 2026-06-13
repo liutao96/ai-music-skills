@@ -14,6 +14,7 @@ C:\Users\刘涛\.codex\skills
 
 - `feishu-miaoxiangwendang`: 刷新妙响官方飞书知识库到本地 Markdown。
 - `ai-miaoxiang-music`: 妙响实战出歌创作助理。
+- `ai-miaoxiang-learning-mentor`: 妙响学习导师，负责知识纠偏、真问题诊断、学习路径和战略陪跑。
 - `ai-suno-music`: 通用 AI / Suno 音乐工作流，并路由妙响任务到 `ai-miaoxiang-music`。
 
 ## 推荐用法
@@ -27,8 +28,8 @@ C:\Users\刘涛\.codex\skills
 - `一键备份并推送GitHub.cmd`：把 `.codex\skills` 当前运行版本同步到项目、提交，并推送 GitHub。
 - `一键安装到Codex.cmd`：到另一台电脑后，把项目里的 skill 安装回 `.codex\skills`。
 - `一键从GitHub更新并安装到Codex.cmd`：到另一台电脑后，先从 GitHub 拉取，再安装回 `.codex\skills`。
-- `首次设置GitHub仓库.cmd`：安装 / 登录 GitHub CLI，并创建或推送 `liutao96/miaoxiang-skills` 仓库。
-- `打开GitHub建仓库页面.cmd`：不用 GitHub CLI，直接打开网页创建 `miaoxiang-skills` 仓库。
+- `首次设置GitHub仓库.cmd`：安装 / 登录 GitHub CLI，并创建或推送 `liutao96/ai-music-skills` 仓库。
+- `打开GitHub建仓库页面.cmd`：不用 GitHub CLI，直接打开网页创建 `ai-music-skills` 仓库。
 - `一键推送到GitHub.cmd`：远端仓库创建好后，直接推送。
 
 建议日常只记两个按钮：
