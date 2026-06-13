@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Miaoxiang Music"
+  short_description: "Practical Miaoxiang AI music creation assistant"
+  default_prompt: "Use $ai-miaoxiang-music to create a practical song plan, prompts, lyrics, and Miaoxiang workflow."

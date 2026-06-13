@@ -1,0 +1,14 @@
+{
+  "last_updated": "2026-06-03T14:58:30.029461",
+  "preferences": [
+    "When the user asks to save or build a reusable Suno/AI music knowledge base, proactively decide whether the existing ai-suno-music skill should be updated to route to that knowledge base; do not wait for the user to ask if the benefit is clear and low risk.",
+    "For Liu Tao, reusable project knowledge should not remain only as local documents when it is intended for future invocation; connect it to the relevant skill as an entry/routing rule whenever appropriate.",
+    "Whenever a Skill is updated for Liu Tao, do not leave the change only on the local machine. Check whether the Skill folder is a Git repository with a GitHub remote, then commit and push the Skill update when the user has requested or confirmed this behavior."
+  ],
+  "fixes": [
+    "After creating a project-specific external knowledge base under 00_Suno音乐创作知识库, update ai-suno-music project discovery references or explicitly explain why no skill update is needed.",
+    "Avoid copying large source documents into a skill; store only concise routing instructions in SKILL.md/references and keep the full material in the project knowledge base.",
+    "After modifying ai-suno-music or any other reusable Skill, run validation, inspect git status, commit the relevant Skill files, and push to the configured GitHub remote unless there is no remote or the user explicitly says not to push."
+  ],
+  "custom_prompts": "Before closing any Skill update task, ask internally: has this Skill change been validated and uploaded to GitHub? If not, either push it or clearly report the blocker."
+}

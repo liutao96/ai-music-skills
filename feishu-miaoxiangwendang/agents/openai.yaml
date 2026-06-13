@@ -1,0 +1,4 @@
+interface:
+  display_name: "Feishu Miaoxiang W档"
+  short_description: "Refresh Miaoxiang Feishu docs into a local KB"
+  default_prompt: "Use $feishu-miaoxiangwendang to refresh the official Miaoxiang Feishu knowledge base into local Markdown."
