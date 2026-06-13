@@ -26,6 +26,7 @@ C:\Users\刘涛\.codex\skills
 - `一键备份到项目并提交.cmd`：把 `.codex\skills` 当前运行版本同步到项目，并自动 Git commit。
 - `一键安装到Codex.cmd`：到另一台电脑后，把项目里的 skill 安装回 `.codex\skills`。
 - `首次设置GitHub仓库.cmd`：安装 / 登录 GitHub CLI，并创建或推送 `liutao96/miaoxiang-skills` 仓库。
+- `打开GitHub建仓库页面.cmd`：不用 GitHub CLI，直接打开网页创建 `miaoxiang-skills` 仓库。
 - `一键推送到GitHub.cmd`：远端仓库创建好后，直接推送。
 
 建议日常只记两个按钮：
@@ -34,6 +35,8 @@ C:\Users\刘涛\.codex\skills
 2. 到另一台电脑后，双击 `一键安装到Codex.cmd`。
 
 GitHub 只需要首次设置一次，之后用菜单或 `一键推送到GitHub.cmd`。
+
+如果 `首次设置GitHub仓库.cmd` 因为 GitHub CLI 没装好失败，就双击 `打开GitHub建仓库页面.cmd`，在网页上创建仓库，然后双击 `一键推送到GitHub.cmd`。
 
 ### 命令行备用
 
