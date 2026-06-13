@@ -1,4 +1,0 @@
-interface:
-  display_name: "AI Miaoxiang Learning Mentor"
-  short_description: "Strategic Miaoxiang learning mentor for Liu Tao"
-  default_prompt: "Use $ai-miaoxiang-learning-mentor to diagnose my Miaoxiang learning question and give a strategic, source-backed answer."

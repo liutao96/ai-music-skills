@@ -14,7 +14,7 @@ C:\Users\刘涛\.codex\skills
 
 - `feishu-miaoxiangwendang`: 刷新妙响官方飞书知识库到本地 Markdown。
 - `ai-miaoxiang-music`: 妙响实战出歌创作助理。
-- `ai-miaoxiang-learning-mentor`: 妙响学习导师，负责知识纠偏、真问题诊断、学习路径和战略陪跑。
+- `ai-miaoxiang-daoshi`: 妙响导师，负责知识纠偏、真问题诊断、学习路径和战略陪跑。
 - `ai-suno-music`: 通用 AI / Suno 音乐工作流，并路由妙响任务到 `ai-miaoxiang-music`。
 
 ## 推荐用法

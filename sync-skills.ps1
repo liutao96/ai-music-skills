@@ -5,7 +5,7 @@ param(
   [string[]]$SkillNames = @(
     'feishu-miaoxiangwendang',
     'ai-miaoxiang-music',
-    'ai-miaoxiang-learning-mentor',
+    'ai-miaoxiang-daoshi',
     'ai-suno-music'
   ),
 
