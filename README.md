@@ -18,6 +18,25 @@ C:\Users\刘涛\.codex\skills
 
 ## 推荐用法
 
+### 不想输命令时
+
+直接双击：
+
+- `同步Skill.cmd`：打开菜单，检查、备份、安装、提交、推送、首次设置都在里面。
+- `一键备份到项目并提交.cmd`：把 `.codex\skills` 当前运行版本同步到项目，并自动 Git commit。
+- `一键安装到Codex.cmd`：到另一台电脑后，把项目里的 skill 安装回 `.codex\skills`。
+- `首次设置GitHub仓库.cmd`：安装 / 登录 GitHub CLI，并创建或推送 `liutao96/miaoxiang-skills` 仓库。
+- `一键推送到GitHub.cmd`：远端仓库创建好后，直接推送。
+
+建议日常只记两个按钮：
+
+1. 在常用电脑改完 skill 后，双击 `一键备份到项目并提交.cmd`。
+2. 到另一台电脑后，双击 `一键安装到Codex.cmd`。
+
+GitHub 只需要首次设置一次，之后用菜单或 `一键推送到GitHub.cmd`。
+
+### 命令行备用
+
 查看两边是否一致：
 
 ```powershell
@@ -74,3 +93,5 @@ gh repo create liutao96/miaoxiang-skills --private --source . --remote origin --
 如果不用 GitHub CLI，就先在 GitHub 网页创建 `miaoxiang-skills` 仓库，再运行上面的 `git push`。
 
 当前目录已经是 Git 仓库；如果移动到另一台电脑，只要 GitHub 远端存在，就可以 `git pull` / `git push`。
+
+如果本机没有 `gh`，双击 `首次设置GitHub仓库.cmd`。如果安装 GitHub CLI 时报 `1618`，说明 Windows 正在执行另一个 MSI 安装，等几分钟或重启后再运行一次。
